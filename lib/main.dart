@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:w5_practice/pages/exercise1/exercise1.dart';
 import 'package:w5_practice/pages/exercise2/exercise2.dart';
 import 'package:w5_practice/pages/exercise3/exercise3.dart';
+import 'package:w5_practice/pages/exercise4/exercise4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Exercise3(),
+      home: Exercise4(),
     );
   }
 }
