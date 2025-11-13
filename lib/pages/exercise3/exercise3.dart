@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-enum Product implements Comparable<Product> {
+enum Product {
   dart(
     title: "Dart",
     description: "The best object language",
@@ -26,9 +26,6 @@ enum Product implements Comparable<Product> {
     required this.description,
     required this.image,
   });
-
-  @override
-  int compareTo(Product other) => title.compareTo(other.title);
 }
 
 class Exercise3 extends StatelessWidget {
